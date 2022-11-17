@@ -1,11 +1,10 @@
 import './App.css';
-import Home from '../src/component/Profile.component'
-import Proress from '../src/component/Progress.component'
+import Home from './pages/Home.pages';
+
 function App() {
   return (
     <div >
-      <Home/>
-      <Proress/>
+      <Home />
     </div>
   );
 }

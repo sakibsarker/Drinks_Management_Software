@@ -1,15 +1,15 @@
 import React from 'react'
 import ListItem from '../component/ListItem.component'
 import Profile from '../component/Profile.component'
-
+import Progress from '../component/Progress.component'
+import './Home.style.css'
 function Home() {
     return (
-        <React.Fragment>
-
+        <div className='home'>
             <Profile />
             <ListItem />
-
-        </React.Fragment>
+            <Progress />
+        </div>
 
     )
 }
