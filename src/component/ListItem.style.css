@@ -2,4 +2,8 @@
     min-height: 180px;
     text-align: center;
 }
+.table_container tr td{
+    padding: 30px 0;
+}
+
 
