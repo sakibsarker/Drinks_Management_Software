@@ -4,16 +4,38 @@
     align-items: center;
     background-color: #F9F9F9;
     padding: 10px;
+    
+}
+.profile_textContainer{
+    display: inline-block;
+  
+    
 
 }
 .profile_name{
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 10px;
+    font-weight: normal;
+   
+   
 }
 .profile_picture{
-
     width: 60px;
     height: 60px;
-    border-radius: 40px;
+    border-radius: 40px; 
+}
+.profile_status{
+    font-size: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+      margin-top: 5px;
+    
+}
+.profile_status h1{
+    font-size: 7px;
+    font-weight: 500;
+    margin-left: 2px;
     
 }
