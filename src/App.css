@@ -1,0 +1,17 @@
+/* .App{
+  background-color: green;
+  display: grid; 
+   grid-template-columns: repeat(3,33.3%);
+
+} */
+
+.App{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80vw;
+  gap:50px;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Profile.style.css'
-import { RiRadioButtonLine } from 'react-icons/ri'
+import logo from '../assets/call.gif'
 function Profile() {
     return (
         <div className='profile_container'>
@@ -10,10 +10,7 @@ function Profile() {
             <div className='profile_textContainer'>
 
                 <h1 className='profile_name'>Touhid Bhuiyan</h1>
-                <div className='profile_status'>
-                    <RiRadioButtonLine />
-                    <h1>Online</h1>
-                </div>
+                <img className='profile_icon' src={logo} alt='calling' />
             </div>
 
 
