@@ -6,7 +6,7 @@
     align-items: center;
 }
 .Btn{
-    background-color:'#f3f3f3';
+    background-color: #A4BE7B;
     border: 0;
     margin: 10px;
     padding: 20px;
@@ -14,7 +14,7 @@
     padding-right: 50px;
     border-radius: 50px;
     text-align: center;
-    color:black;
+    color:white;
 }
 .Btn:hover{
 background-color: rebeccapurple;
