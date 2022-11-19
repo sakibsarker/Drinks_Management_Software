@@ -5,13 +5,14 @@
 
 } */
 
+
 .App{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   max-width: 95vw;
-  margin: 20px auto;
+  margin: 30px auto;
   gap: 50px;
 
 }
