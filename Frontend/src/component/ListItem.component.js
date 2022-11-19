@@ -5,8 +5,8 @@ function ListItem() {
     return (
         <Table className="table_container" striped bordered hover variant="light">
             <thead>
-                <tr>
-                    <th>#</th>
+                <tr className='tb-tr'>
+                    <th>No</th>
                     <th>Drinks</th>
                     <th>Type</th>
                     <th>Quantity</th>
